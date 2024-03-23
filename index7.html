@@ -1,0 +1,41 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>College Map</h1>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([34.1234, -118.5678], 16);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Add markers for buildings
+        var buildings = [
+            { name: 'Building A', location: [34.1234, -118.5678] },
+            { name: 'Building B', location: [34.5678, -118.9012] },
+            // Add more buildings as needed
+        ];
+
+        buildings.forEach(function(building) {
+            L.marker(building.location).addTo(map)
+                .bindPopup('<b>' + building.name + '</b>');
+        });
+    </script>
+</body>
+
+</html>
