@@ -1,0 +1,75 @@
+body {
+    
+    background-color: #dfd9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50em;
+}
+
+form {
+    background-color:#e5bfbf;
+    max-width: 80%;
+    padding: 60px;
+    border-radius: 5px;
+   
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #d2c7c7;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #59bfdd;
+    color: rgb(20, 17, 17);
+    border:none;
+    
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.cancelbtn {
+    width: 90px;
+    padding: 10px 18px;
+    background-color: #d88585;
+    color: rgb(17, 8, 8);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn a {
+    margin-bottom: 30px;
+    text-decoration: none;
+    
+}
+.cancelbtn a{
+    text-decoration: none;
+}
+
+/* Styling for the checkbox */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+.b a{
+    text-decoration: none;
+}

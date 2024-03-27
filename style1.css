@@ -1,0 +1,33 @@
+
+
+
+.head {
+    text-align: center;
+    margin-top: 300px;
+    font-size: large;
+}
+
+.student {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.click {
+    background-color: #5b9ad8;
+    border: none;
+    color: rgb(217, 209, 209);
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;  
+}
+
+.click:hover {
+    background-color: #45a049;
+}
+
+.click a {
+    color: rgb(239, 235, 235);
+    text-decoration: none;
+}
