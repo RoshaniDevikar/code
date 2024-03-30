@@ -10,8 +10,8 @@ body {
 form {
     background-color: #e5bfbf;
     max-width: 70%;
-    padding: 70px;
-    border-radius: 6px;
+    padding: 60px;
+    border-radius: 5px;
    
 }
 
@@ -19,14 +19,14 @@ h1 {
     text-align: center;
 }
 
-input[type="text"],
-input[type="text"] {
+input[type="number"],
+input[type="password"] {
     width: calc(100% - 20px);
-    padding: 20px;
-    margin: 10px 0;
+    padding: 10px;
+    margin: 8px 0;
     display: inline-block;
     border: 1px solid #d2c7c7;
-    border-radius: 40px;
+    border-radius: 4px;
     box-sizing: border-box;
 }
 
